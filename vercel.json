@@ -1,0 +1,13 @@
+{
+  "buildCommand": "cd ature-app && npm install && npm run build",
+  "outputDirectory": "ature-app/dist",
+  "installCommand": "cd ature-app && npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
